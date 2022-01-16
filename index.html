@@ -24,7 +24,7 @@
     <title>Work Day Scheduler</title>
   </head>
 
-  <body>
+  <body onload = "JavaScript:AutoRefresh(900000);">
     
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
@@ -36,9 +36,9 @@
       <div class="time-block">
         <div class="row">
           <div class="col-1 hour">
-            <p id="hournine">9am</p>
+            <p>9am</p>
           </div>
-          <textarea class="col-10 border border-dark">
+          <textarea id="hournine" class="col-10 border border-dark future">
           </textarea>
           <button class="saveBtn oi oi-plus" id="save">
           </button>
@@ -46,9 +46,9 @@
 
         <div class="row">
           <div class="col-1 hour">
-            <p id="hourten">10am</p>
+            <p>10am</p>
           </div>
-          <textarea class="col-10 border border-top-0 border-dark">
+          <textarea id="hourten" class="col-10 border border-top-0 border-dark future">
           </textarea>
           <button class="saveBtn oi oi-plus" id="save">
           </button>
@@ -56,9 +56,9 @@
 
         <div class="row">
           <div class="col-1 hour">
-            <p id="houreleven">11am</p>
+            <p>11am</p>
           </div>
-          <textarea class="col-10 border border-top-0 border-dark">
+          <textarea  id="houreleven" class="col-10 border border-top-0 border-dark future">
           </textarea>
           <button class="saveBtn oi oi-plus" id="save">
           </button>
@@ -66,9 +66,9 @@
 
         <div class="row">
           <div class="col-1 hour">
-            <p id="hourtwelve">12pm</p>
+            <p>12pm</p>
           </div>
-          <textarea class="col-10 border border-top-0 border-dark">
+          <textarea id="hourtwelve" class="col-10 border border-top-0 border-dark future">
           </textarea>
           <button class="saveBtn oi oi-plus" id="save">
           </button>
@@ -76,9 +76,9 @@
 
         <div class="row">
           <div class="col-1 hour">
-            <p id="hourone">1pm</p>
+            <p>1pm</p>
           </div>
-          <textarea class="col-10 border border-top-0 border-dark">
+          <textarea id="hourone" class="col-10 border border-top-0 border-dark future">
           </textarea>
           <button class="saveBtn oi oi-plus" id="save">
           </button>
@@ -86,9 +86,9 @@
 
         <div class="row">
           <div class="col-1 hour">
-            <p id="hourtwo">2pm</p>
+            <p>2pm</p>
           </div>
-          <textarea class="col-10 border border-top-0 border-dark">
+          <textarea id="hourtwo" class="col-10 border border-top-0 border-dark future">
           </textarea>
           <button class="saveBtn oi oi-plus" id="save">
           </button>
@@ -96,9 +96,9 @@
 
         <div class="row">
           <div class="col-1 hour">
-            <p id="hourthree">3pm</p>
+            <p>3pm</p>
           </div>
-          <textarea class="col-10 border border-top-0 border-dark">
+          <textarea id="hourthree" class="col-10 border border-top-0 border-dark future">
           </textarea>
           <button class="saveBtn oi oi-plus" id="save">
           </button>
@@ -106,9 +106,9 @@
 
         <div class="row">
           <div class="col-1 hour">
-            <p id="hourfour">4pm</p>
+            <p>4pm</p>
           </div>
-          <textarea class="col-10 border border-top-0 border-dark">
+          <textarea id="hourfour" class="col-10 border border-top-0 border-dark future">
           </textarea>
           <button class="saveBtn oi oi-plus" id="save">
           </button>
@@ -116,9 +116,9 @@
 
         <div class="row">
           <div class="col-1 hour border-bottom border-dark">
-            <p id="hourfive">5pm</p>
+            <p>5pm</p>
           </div>
-          <textarea class="col-10 border border-top-0 border-dark">
+          <textarea id="hourfive" class="col-10 border border-top-0 border-dark future">
           </textarea>
           <button class="saveBtn oi oi-plus" id="save">
           </button>
